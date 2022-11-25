@@ -38,9 +38,17 @@ header{
 
 .titulo {
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     padding: 70px;
     width: 1400px;
     text-align: center;
+}
+
+.sobre {
+    font-size: 16px;
+    color: white;
+    width: 1400px;
+    text-align: justify;
+    font-family: monospace;
 }
