@@ -7,7 +7,7 @@
 .center{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1400px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -41,14 +41,37 @@ header{
     font-size: 18px;
     color: white;
     padding: 70px;
-    width: 1400px;
+    width: 1250px;
     text-align: center;
+}
+
+.welcome {
+    align-items: center;
+    width: 50%;
 }
 
 .sobre {
     font-size: 16px;
     color: white;
-    width: 1400px;
+    width: fit-content;
     text-align: justify;
     font-family: monospace;
+}
+
+.teste {
+    height: 200px;
+}
+
+.curriculo {
+    font-size: 18px;
+    color: white;
+    width: fit-content;
+    text-align: justify;
+    font-family: monospace;
+}
+
+.redes {
+    color: white;
+    text-decoration: none;
+    margin-right: 14px;
 }
