@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(25, 25, 25);
+    background: linear-gradient(90deg, rgba(25, 25, 25, 1) 0%, rgba(62, 62, 62, 1) 50%, rgba(25, 25, 25, 1) 100%);
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.bacana {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: rgb(25, 25, 25);
+    padding: 30PX;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #1b1b1b, #171717);
+    box-shadow: 20px 20px 12px #0a0a0a,
+        -20px -20px 12px #282828;
+
+
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.logo {
+    width: 47%;
+}
+
+.menu {
+    width: 53%;
+    padding-top: 20px;
+    text-align: right;
+    font-family: Verdana;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 14px;
+}
+
+.titulo {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    width: 1250px;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo-grande {
+    width: 1250PX;
+    font-family: monospace;
+    font-size: 28px;
+    color: orange;
+    text-align: center;
+    align-items: center;
+    padding: 30PX;
+    border-radius: 200px;
+    background: linear-gradient(145deg, #ffffff, #ffffff);
+    box-shadow: 20px 20px 12px #0a0a0a,
+        -20px -20px 12px #282828;
+
+}
+
+.subtitulo {
+    font-family: monospace;
+    font-size: 16px;
+    color: orange;
+    width: 1250px;
+    text-align: center;
+    align-items: center;
+}
+
+.imagens {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    padding-left: 100px;
+}
+
+.sobre {
+    padding: 80px;
+    font-size: 16px;
+    color: white;
+    width: fit-content;
+    max-width: 1300px;
+    text-align: justify;
+    font-family: monospace;
+    background-color: rgb(25, 25, 25);
+    padding: 30PX;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #1b1b1b, #171717);
+    box-shadow: 20px 20px 12px #0a0a0a,
+        -20px -20px 12px #282828;
+}
+
+.scroll {
+    height: 200px;
+}
+
+.curriculo {
+    font-size: 16px;
+    color: white;
+    width: fit-content;
+    text-align: justify;
+    font-family: monospace;
+    background-color: rgb(25, 25, 25);
+    padding: 30PX;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #1b1b1b, #171717);
+    box-shadow: 20px 20px 12px #0a0a0a,
+        -20px -20px 12px #282828;
+}
+
+.redes {
+    color: white;
+    text-decoration: none;
+    margin-right: 14px;
+}
